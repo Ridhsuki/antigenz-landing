@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AntigenZ - Website</title>
+    <link rel="stylesheet" href="style/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702506/logo-angkatan_pwkxnh.png"
+      type="image/png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_upward"
+    />
+  </head>
+  <body>
+    <header class="navbar-container">
+      <div class="logo">
+        <img
+          src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702506/logo-angkatan_pwkxnh.png"
+          alt="Logo Komunitas Angkatan"
+        />
+        <h1>Antigen-Z</h1>
+      </div>
+      <nav class="nav-list">
+        <ul>
+          <!-- <li><a href="#beranda">Beranda</a></li> -->
+          <li><a href="#tentang-kami">Tentang Kami</a></li>
+          <li><a href="#kebersamaan">Kebersamaan</a></li>
+          <li><a href="#masuk-lulus">Masuk & Lulus</a></li>
+          <li><a href="#gallery">gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="content">
+        <div class="content-description">
+          <h1 class="title" id="Beranda">Antigen-Z</h1>
+          <p>
+            Selamat datang di komunitas angkatan kami! Sejak masuk hingga lulus,
+            kami selalu bersama. Di sini, kami membangun kenangan, saling
+            mendukung, dan tetap terhubung setelah lulus. Mari jelajahi cerita
+            kebersamaan dan perjalanan angkatan yang tak terlupakan.
+          </p>
+          <button onclick="location.href='#tentang-kami'">
+            Pelajari Lebih Lanjut
+          </button>
+        </div>
+        <div class="content-image">
+          <img
+            src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702506/logo-angkatan_pwkxnh.png"
+            alt="Logo Antigen-Z"
+          />
+        </div>
+      </div>
+
+      <div class="menu-content">
+        <section id="tentang-kami">
+          <h2>Tentang Kami</h2>
+          <div class="content">
+            <p>
+              Antigen-Z, angkatan ke-13 SMKIT Smart Informatika Surakarta,
+              adalah komunitas yang penuh semangat, inovasi, dan kebersamaan.
+              Kami terdiri dari individu-individu yang memiliki visi besar untuk
+              menciptakan perubahan melalui teknologi dan kolaborasi.
+            </p>
+            <div class="image-wrapper">
+              <img
+                src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702529/tentang_vv98ti.jpg"
+                alt="Tentang Antigen-Z"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section id="kebersamaan">
+          <h2>Kebersamaan</h2>
+          <div class="content">
+            <p>
+              Kebersamaan adalah kekuatan utama kami. Di Antigen-Z, kami bukan
+              hanya teman, kami adalah keluarga. Dari kegiatan belajar hingga
+              acara-acara kebersamaan, kami selalu menjaga persahabatan dan
+              saling mendukung.
+            </p>
+            <div class="image-wrapper">
+              <img
+                src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702518/kebersamaan_vxmu6f.jpg"
+                alt="Kebersamaan Antigen-Z"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section id="masuk-lulus">
+          <h2>Masuk & Lulus</h2>
+          <div class="content">
+            <p>
+              Masuk sebagai siswa SMKIT Smart Informatika adalah langkah pertama
+              kami menuju dunia teknologi. Lulus dari Antigen-Z bukan hanya soal
+              gelar, tapi kesiapan kami menghadapi masa depan dengan semangat
+              yang sama.
+            </p>
+            <div class="image-wrapper">
+              <img
+                src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702518/masuk-lulus_kzxakf.jpg"
+                alt="Perjalanan Masuk dan Lulus"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section id="gallery">
+          <div class="gallery-section">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+              <div class="gallery-item">
+                <img
+                  src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702494/gallery1_otsrdt.jpg"
+                  alt="Gallery Image 1" onclick="openLightbox(); currentSlide(1)"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702514/gallery2_xeefiz.jpg"
+                  alt="Gallery Image 2" onclick="openLightbox(); currentSlide(2)"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702529/tentang_vv98ti.jpg"
+                  alt="Gallery Image 3" onclick="openLightbox(); currentSlide(3)"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702498/gallery4_sbiv0w.jpg"
+                  alt="Gallery Image 4" onclick="openLightbox(); currentSlide(4)"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702505/gallery5_mu0ymc.jpg"
+                  alt="Gallery Image 5" onclick="openLightbox(); currentSlide(5)"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702502/gallery6_ims4ym.jpg"
+                  alt="Gallery Image 6" onclick="openLightbox(); currentSlide(6)"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702515/gallery7_dtg6bl.jpg"
+                  alt="Gallery Image 7" onclick="openLightbox(); currentSlide(7)"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702518/masuk-lulus_kzxakf.jpg"
+                  alt="Gallery Image 8" onclick="openLightbox(); currentSlide(8)"
+                />
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702518/kebersamaan_vxmu6f.jpg"
+                  alt="Gallery Image 9" onclick="openLightbox(); currentSlide(9)"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div id="lightbox" class="lightbox">
+            <span class="close" onclick="closeLightbox()">&times;</span>
+            <div class="lightbox-content">
+              <img
+                class="lightbox-slide"
+                src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702494/gallery1_otsrdt.jpg"
+              />
+              <img
+                class="lightbox-slide"
+                src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702514/gallery2_xeefiz.jpg"
+              />
+              <img
+                class="lightbox-slide"
+                src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702529/tentang_vv98ti.jpg"
+              />
+              <img
+                class="lightbox-slide"
+                src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702498/gallery4_sbiv0w.jpg"
+              />
+              <img
+                class="lightbox-slide"
+                src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702505/gallery5_mu0ymc.jpg"
+              />
+              <img
+                class="lightbox-slide"
+                src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702502/gallery6_ims4ym.jpg"
+              />
+              <img
+                class="lightbox-slide"
+                src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702515/gallery7_dtg6bl.jpg"
+              />
+              <img
+                class="lightbox-slide"
+                src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702518/masuk-lulus_kzxakf.jpg"
+              />
+              <img
+                class="lightbox-slide"
+                src="https://res.cloudinary.com/dv8jmnzaf/image/upload/v1729702518/kebersamaan_vxmu6f.jpg"
+              />
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+          </div>
+        </section>
+      </div>
+
+      <aside>
+        <div class="social-media">
+          <ul>
+            <li>
+              <a href="https://www.youtube.com/@antigenzofficial"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/antigenzitsi/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <p>
+        Belajar Dasar Pemrograman Web &#169; 2024,
+        <a href="https://www.instagram.com/basukiridhoal/">Basukiridhoal</a> X
+        <a href="https://www.dicoding.com/">Dicoding Academy</a>
+      </p>
+    </footer>
+    <button onclick="scrollToTop()" id="backToTopBtn" title="Kembali ke Atas">
+      <span class="material-symbols-outlined"> arrow_upward </span>
+    </button>
+    <script>
+      // LightBox
+      let slideIndex = 1;
+
+      function openLightbox() {
+        document.getElementById("lightbox").style.display = "block";
+        showSlides(slideIndex);
+      }
+
+      function closeLightbox() {
+        document.getElementById("lightbox").style.display = "none";
+      }
+
+      function changeSlide(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let slides = document.getElementsByClassName("lightbox-slide");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (let i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+      }
+
+      // Fungsi untuk menampilkan tombol setelah scroll ke bawah 20px
+      window.onscroll = function () {
+        toggleBackToTopButton();
+      };
+
+      function toggleBackToTopButton() {
+        const backToTopBtn = document.getElementById("backToTopBtn");
+        if (
+          document.body.scrollTop > 200 ||
+          document.documentElement.scrollTop > 200
+        ) {
+          backToTopBtn.style.display = "block";
+        } else {
+          backToTopBtn.style.display = "none";
+        }
+      }
+
+      // Fungsi untuk scroll ke atas saat tombol diklik
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+  </body>
+</html>
